@@ -72,7 +72,7 @@ main{
 .block_result_score > h1 {
   padding: 0px;
   margin: 0px;
-  font-size: 50px;
+  font-size: 60px;
   color: rgba(255, 255, 255);
 }
 .block_result_score > h5 {
@@ -149,16 +149,10 @@ main{
   padding: 0px;
   display: flex;
 }
-.summary_block > h4 {
-  grid-column: 4/5;
-}
 .summary_title > h4 {
   margin: 20px 10px;
 }
-.summary_block > h4 {
-  color: var(--dark-gray-blue);
-  text-align: right;
-}
+
 
 #reaction {
   background: var(--Light_red);
@@ -176,6 +170,11 @@ main{
 #visual {
   background: var(--Cobalt_blue);
   color: hsl(240, 100%, 70%);
+}
+.summary_block > h4 {
+  grid-column: 4/5;
+  color: black;
+  text-align: right;
 }
 button {
   background: none;
